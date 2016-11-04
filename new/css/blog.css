@@ -1,0 +1,179 @@
+.jumbotron{
+	background: url(../images/blog.jpg) no-repeat; 
+    /*-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;*/
+
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin:0;
+    padding-bottom: 0;
+
+}
+.center-block > .title-class{
+	margin-top: 200px;
+	margin-bottom: 10px;
+}
+
+#top{
+	position: relative;
+}
+
+#competiton-styling{
+	position: absolute;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#arrow-button{
+	position: absolute;
+	bottom: 10px;
+}
+
+.slide.nea p {
+    text-align: left;
+
+}
+
+.slide.nea img {
+	margin: initial; 
+}
+
+.row.slide.nea .col-xs-6{
+	padding: 0;
+	word-wrap: break-word;
+}
+
+.blog.slide.nea{
+	padding-bottom: 0;
+	margin:0;
+	height: 200px;
+}
+
+#outer-div{
+	background-color: #f1f1f1;
+	padding: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 30px;
+	padding-left: 0;
+}
+
+hr{
+	border-top: 1px solid #bdbdbd;
+}
+
+#picture-div{
+	height: 100%;
+	width: 50%;
+	float: left;
+	margin-right:10px;
+}
+
+#someDiv {
+    height: 100%;
+    width: 100%;
+    line-height: 1.4;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#blog-pic{
+	height: 100%;
+	width: 100%;
+}
+
+#someDiv p {
+	text-align: justify;
+}
+
+#someDiv .necessary{
+	background-color: transparent;
+	border-color: orange;
+	color: orange;
+}
+
+#someDiv .necessary:hover{
+	color:black;
+	background-color: orange;
+}
+
+#someDiv .glyphicon-time {
+	margin-right: 10px;
+}
+
+#user-span{
+	margin-left:30px;
+}
+
+#someDiv .glyphicon-user {
+	margin-right: 10px;
+}
+
+#someDivHead {
+	font-weight: bold;
+	padding-top: 10px;
+	color: #595959;
+}
+
+.info{
+	color: #8a8889;
+}
+
+.details{
+	color: #3f3f3f;
+}
+
+#someDiv hr{
+	margin:10px;
+}
+
+#someDiv .necessary {
+	padding: 5px 25px 5px 25px;
+}
+
+#comments-id{
+	float: right;
+	text-decoration: underline;
+	color: #7593d9;
+	padding-top: 10px;
+}
+
+.custom-color{
+	border: 1px solid #6fd1da!important;;
+}
+
+@media (min-width: 601px) and (max-width: 992px){
+	#user-span{
+		display: block;
+	}
+}
+@media(max-width: 600px){
+	#someDiv{
+		float: left;
+	}
+
+	#picture-div{
+		width: 100%;
+	}
+}
+
+@media (max-width: 465px){
+	#user-span{
+		display: block;
+		margin-left: 0;
+	}
+	#someDivHead{
+		font-size: 14px;
+	}
+
+	#comments-id, #someDivButton{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	#someDiv p {
+	text-align: center;
+}
+}

@@ -1,0 +1,531 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; /*disable the horizontal scroll*/
+    
+}
+
+*{
+    font-family: Lato;
+}
+
+a, a:visited, a:hover , a:link {
+    text-decoration: none;
+    color: white;
+}
+/*link styling end*/
+
+#back-to-top-button{
+    position: fixed;
+    font-size: 2.5em;
+    top:150px;
+    right: 20px;
+    z-index: 100;
+}
+
+/*jumbotron start*/
+
+#top{
+    position: relative;
+}
+
+#jumbotron-button{
+    font-size: 0.6em;
+}
+.jumbotron{
+	background: url(../images/sunset.jpg) no-repeat; 
+    /*-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;*/
+
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin:0;
+    padding-bottom: 0;
+
+}
+
+/*logo styling*/
+.center-block > .center-block{
+    width:150px;
+    height:170px;
+}
+
+
+.center-block > .text-center{
+    font-size: 2.5em;
+    color:white;
+    margin: 80px;
+}
+
+#menu-button{
+    font-size: 3.5em;
+}
+
+@media (max-width: 991px){ 
+    #competition-styling{
+    font-size: 1.5em;
+}
+    #menu-button{
+        font-size: 2em;
+    }
+ }
+
+ @media (max-width: 767px){
+ }
+
+#menu-button{
+    position: absolute;
+    cursor:pointer;
+    color: white;
+    left: 30px;
+}
+
+#arrow-button{
+    margin:0;
+    /*position: absolute;*/
+    bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+#arrow-button img {
+    height: 50px;
+}
+/*jumbotron end*/
+
+/*sidenav start non-modified*/
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 48px;
+    /*opacity: 0.75;*/
+    /*color: #1e2251;*/    
+}
+
+.sidenav a {
+    padding: 0px 8px 10px 32px;
+    border-bottom: 2px solid white;
+    margin-bottom:15px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.jumbotron > .pull-left{
+    position: relative;
+}
+
+ #closebtn {
+    position: fixed;
+    top: 35px;
+    left: 260px;
+    font-size: 36px;
+    visibility: hidden;
+    z-index: 50;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*sidenav end*/
+
+/*start of multiple image slider*/
+.glyphicon-time {
+    margin-right: 20px;
+}
+
+.slide a{
+    border-color: black;
+    color:black;
+}
+
+.bx-wrapper img {
+    height: 225px;
+    padding:10px;
+}
+
+div.slide{
+    margin-right: 50px;
+    border:2px solid #d8d8d8;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+}
+
+
+.bx-wrapper .bx-viewport{
+    border:0;
+}
+
+.slide span{
+    background-color: rgb(255, 153, 0);
+    /*color: white;*/
+    /*padding: 10px 10px 10px 10px;*/
+    border:0;
+}
+
+.slide span:hover {
+    background-color: rgb(255, 108, 0);
+    transition: background .4s ease-out,color .4s ease;
+
+}
+
+.date{
+    margin-top: -10px;
+}
+
+div.slide p:nth-child(2){
+    font-weight: bold;
+}
+div.slide p:nth-child(4){
+    border-top: 2px solid grey;
+}
+#news > p {
+    font-size: 2em;
+}
+
+#news{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px){
+    .bx-viewport{
+        /*height: 450px !important;*/
+    }
+}
+/*end of multiple image slider*/
+
+/*guidelines start*/
+.container-fluid.general{
+    background-color: #213354;
+
+}
+
+.outside{
+    display: table;
+    height: 150px;
+
+
+}
+
+.inside{
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.necessary{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+
+}
+
+.necessary:hover{
+    background-color: white;
+    color: black;
+    transition: background .4s ease-out,color .4s ease;
+}
+
+.general span.necessary{
+    height: 50px;
+    width: 250px;
+}
+@media(max-width: 992px){
+
+.general span.necessary{
+    height: 70px;
+    width: 200px;
+}
+}
+
+@media(max-width: 768px){
+    .outside{
+        height: 100px;
+    }
+ /*   .general span.necessary{
+    height: 50px;
+    width: 250px;
+}*/
+}
+/*guidelines end*/
+
+/*quote start*/
+#backgrnd{
+    /*border-top: 2px solid white;
+    border-bottom: 2px solid white;*/
+    background-color: black;
+    position: relative;
+}
+
+.quote-image{
+    background: url('../images/photos/people.jpg') no-repeat;
+    height:300px;
+    background-size: cover;
+    opacity: 0.5;
+    }
+
+.quote-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:42%;
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+@media (max-width: 991px){
+    .quote{
+        height: 200px;
+        background-size:100% 100%;
+        width: 991px;
+    }
+}
+/*quote end*/
+
+/*timeline start*/
+.back-img{
+    background: url(../images/jumbotron.jpg); 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.back-img p {
+    color: white;
+    font-size: 1.5em;
+    margin: 20px 0px -50px 0px;
+}
+
+.back-img  p:nth-child(3){
+    margin-top: 50px;
+}
+
+.back-img .text-center{
+    height: 100px;
+}
+
+.tik-format{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:35%;
+    color: white;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+div.clock{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+
+}
+
+@media (max-width:767px){
+    div.clock{
+    height: 50px;
+    width: 50px;
+    }   
+
+    .clock span{
+        font-size: 0.5em;
+    }
+}
+
+div.clock span {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom:0;
+    color: white;
+}
+
+.clock{
+    display: inline-flex;
+}
+/*timeline end*/
+
+/*newsletter start*/
+#social{
+	background-color: #bbdefb;
+}
+
+#social .text-center{
+	color:#134a79;
+}
+
+.logos{
+	height: 35px;
+	width: 40px;
+	/*border:1px solid white;*/
+}
+
+/*social box*/
+#social .container {
+    text-align: center;
+}
+
+#social .container ul {
+    /*margin-bottom: 0px;*/
+	padding: 0;
+}
+
+#social .container ul li {
+    display: inline-block;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+#sign-up{
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+
+#inform{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+#follow{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#media-div{
+	position: relative;
+}
+
+#social img{
+    width:40px;
+    height:40px;
+    margin:0px 20px 20px 20px;
+}
+
+.button {
+    display: inline;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    width: 100px;
+    font-size: 20px;
+    height: 32px;
+}
+.button .text {
+    border: 3px solid #48ade3;
+}
+
+#submit-button {
+    border: 0;
+    background-color: orange;
+    color: white;
+}
+/* forces submit button to fall only in small screens */
+@media (max-width: 767px) {
+    #sub-button{
+        display: block;
+    }
+}
+/*newsletter_end*/
+
+/*footer start*/
+#new-footer{
+    background-color: #3a3a3a;
+    /*height: 350px;*/
+}
+#new-footer h3 {
+    color: white;
+    border-bottom: 1px solid white;
+}
+#new-footer p {
+    color: white;
+}
+
+#esa{
+    width: 150px;
+}
+
+#main-logo{
+    width: 180px;
+
+}
+
+#ntua{
+    width: 130px;
+}
+
+#ieee-sb{
+    width:130px;
+    float:left;
+    margin-right:6px;
+}
+
+#ministry{
+    width:130px;
+
+}
+
+#corallia-logo{
+    width:180px;
+}
+
+#si-cluster-logo{
+    width:150px;
+}
+
+#ieee-greece-section{
+    width:130px;
+}
+
+#computer-society-greece-section{
+    width:130px;"
+}
+
+#ece{
+    width: 130px;
+    padding: 20px 0px 20px 0px;
+}
+
+#akadimia{
+    width: 130px;
+    padding-top: 20px;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+

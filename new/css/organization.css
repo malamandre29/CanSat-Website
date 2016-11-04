@@ -1,0 +1,236 @@
+.jumbotron{
+	background: url(../images/diorganosi.jpg) no-repeat; 
+    /*-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;*/
+
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin:0;
+    padding-bottom: 0;
+    position: relative;
+
+}
+
+.center-block > .title-class{
+	margin-top: 200px;
+	margin-bottom: 10px;
+}
+
+#subtitle-id{
+	margin: 0;
+	color: white;
+	font-size: 1.2em;
+}
+
+#arrow-button{
+	position: absolute;
+	bottom: 10px;
+}
+
+.container-id{
+	position: relative;
+	padding: 0 80px 50px 80px;
+}
+
+.details-class{
+	color: #858585;
+}
+
+.head-class{
+	color: #585657;
+}
+
+#big-parachute{
+	position: absolute;
+	width: 100px;
+	top: 10px;
+	left: 0;
+}
+
+#satellite{
+	position: absolute;
+	width: 60px;
+	top: 10px;
+	left: 0;
+}
+
+#small-parachute{
+	position: absolute;
+	width: 60px;
+	right: 0;
+	bottom:0px;
+	top: initial;
+	
+}
+
+#rocket {
+	position: absolute;
+	width: 100px;
+	right: 0;
+	bottom:0px;
+	top: initial
+}
+
+#color-id{
+	background-color: #32486d;
+	color: white;
+}
+
+#color-id .container{
+	padding: 40px 0px 40px 0px;
+	position: relative;
+}
+
+#idea{
+	margin-right: 150px;
+}
+#cloud{
+	margin-left: 150px;
+}
+
+@media(max-width: 530px){
+	#idea{
+	margin-right: 50px;
+}
+#cloud{
+	margin-left: 50px;
+}
+}
+
+#content-id{
+	margin-top: 20px;
+}
+
+#information-id{
+	background-color: #fdf6dc;
+}
+
+.padding-class{
+	padding:0px 30px 10px 30px;
+}
+
+.head-class.padding-class{
+	margin: 40px 0px 20px 0px;
+}
+
+p.padding-class {
+	color: #969590;
+}
+
+.li-class{
+	color: #b5b4b0;
+	font-size: 1.3em;
+}
+
+ul{
+	list-style: none;
+}
+
+li:before {
+    content: "• ";
+    color: #757573; /* or whatever color you prefer */
+    padding-right: 10px;
+}
+
+.ul-class{
+	display:table;
+	margin:0 auto;
+}
+
+#logo-id{
+	width: 80px;
+	margin-right: 20px;
+}
+
+#top-id{
+	margin: 20px 0 10px 0;
+}
+
+#sat-id{
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	width: 100px;
+}
+
+#organizer-id{
+	background-color: #f3f6fd;
+}
+
+#organizer-content{
+	padding-left: 30px;
+}
+
+#organizer-head{
+	display: inline;
+	color: #585755;
+	font-size: 1.5em;
+}
+
+.another-details-class{
+	color:#858585;
+}
+
+p.another-details-class{
+	margin-bottom: 30px;
+}
+
+.another-details-class li{
+	margin-bottom: 20px;
+}
+
+.title-font-class{
+	font-size: 1.5em;
+}
+
+@media(max-width: 530px){
+	#big-parachute{
+		width: 50px;
+	}
+
+	#small-parachute{
+		width: 40px;
+	}
+
+	.container-id{
+		padding-right: 15px;
+    	padding-left: 15px;
+	}
+
+	.padding-class{
+		padding: 0 0 20px 40px;
+	}
+
+	#satellite{
+		/*position: relative;*/
+		/*left: -40px;*/
+		/*float: left;*/
+	}
+
+	#rocket{
+		width: 90px;
+	}
+
+	.stick-together{
+		white-space: nowrap;
+	}
+
+	.another-details-class{
+		padding-left: 0;
+	}
+
+	.padding-class{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	#sat-id{
+		left: 40%;
+		width: 60px;
+	}
+
+	#organizer-head{
+		display: block;
+	}
+}
