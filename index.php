@@ -27,12 +27,12 @@
     <meta property="og:description" content="Ο μεγαλύτερος διαγωνισμός διαστημικής 
     έρχεται στην Ελλάδα!"/>
     <!-- Website image -->
-    <meta property="og:image" content="images/cansat_logo_trans.png">
+    <meta property="og:image" content="images/cansat_logo_trans.png"/>
     <!-- some other meta tags -->
     <meta name="description" content="CanSat in Greece 2017. Ο μεγαλύτερος διαγωνισμός διαστημικής 
-    έρχεται στην Ελλάδα!">
+    έρχεται στην Ελλάδα!"/>
     <meta name="keywords" content="CanSat,CanSat in Greece,CanSat in Greece 2017,Ο μεγαλύτερος διαγωνισμός διαστημικής 
-    έρχεται στην Ελλάδα!,διαγωνισμός διαστημικής">
+    έρχεται στην Ελλάδα!,διαγωνισμός διαστημικής"/>
 
 
 
@@ -98,7 +98,7 @@
       <!-- side navigation overlay end -->
       <div class="center-block">
         <img class="center-block" src="images/cansat_logo_trans.png" alt="photo">
-        <h3 class="text-center" id="competition-styling">Ο μεγαλύτερος διαγωνισμός διαστημικής <br>έρχεται στην Ελλάδα!</h3>
+        <h1 class="text-center" id="competition-styling">Ο μεγαλύτερος διαγωνισμός διαστημικής <br>έρχεται στην Ελλάδα!</h1>
         <div class="text-center">
           <a href="pdf/guide.pdf" target="_blank"><span class="necessary" id="jumbotron-button">Μάθετε περισσότερα</span></a>
         </div>

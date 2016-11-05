@@ -106,12 +106,12 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #040f21;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 48px;
     /*opacity: 0.75;*/
-    /*color: #1e2251;*/    
+    /*color: #1e2251;    */
 }
 
 .sidenav a {
