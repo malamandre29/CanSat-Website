@@ -59,10 +59,12 @@
             </div>
             <div id="demoAcc" class="w3-accordion-content w3-white w3-card-4">
               <a href="organization.html#anchor-history">H Ιστορία</a>
-              <a href="organization.html#color-id">Η Ιδέα</a>
-              <a href="organization.html#">Ο Διαγωνισμός</a>
-              <a href="organization.html#">Οι Υποστηρικτές</a>
-              <a href="organization.html#">Ο Διοργανωτής</a>
+              <a href="organization.html#idea-id">Η Ιδέα</a>
+              <a href="organization.html#information-id">Πληροφορίες</a>
+
+              <!-- <a href="organization.html#">Ο Διαγωνισμός</a> -->
+              <!-- <a href="organization.html#">Οι Υποστηρικτές</a> -->
+              <a href="organization.html#organizer-id">Ο Διοργανωτής</a>
 
             </div>
           </div>      <!-- w3-accordion end -->
