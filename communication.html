@@ -19,6 +19,7 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/acc-drop-w3-menu.js" ></script>
     <script src="js/open-close-nav.js"></script>
+    <script src="js/close-menu-when-click.js"></script>
     <link rel="stylesheet" type="text/css" href="css/communication.css">
   </head>
 <body>
@@ -54,13 +55,9 @@
       </div>
       <!-- side navigation overlay end -->
       <div class="center-block">
-        <img class="center-block" src="images/cansat_logo_trans.png" alt="photo">
-        <h3 class="text-center" id="competition-styling">Ο μεγαλύτερος διαγωνισμός διαστημικής <br>έρχεται στην Ελλάδα!</h3>
-        <div class="text-center">
-          <a href="pdf/guide.pdf" target="_blank"><span class="necessary" id="jumbotron-button">Μάθετε περισσότερα</span></a>
-        </div>
+        <h3 class="text-center title-class">Επικοινωνία</h3>
         <div class="text-center" id="arrow-button">
-          <a href="#news" id="smooth">
+          <a href="#contact-here" id="smooth">
           <img src="images/arrow.png" alt="arrow-image">
           </a>
         </div>
@@ -70,13 +67,13 @@
 
   <!-- start of form -->
   <div class="container-fluid" id="color-id">
-    <div class="container">
+    <div class="container" id="contact-here">
       <div class="row">
         <div class="col-sm-6">
           <p class="font-class text-center">Επικοινωνήστε μαζί μας!</p>
           
           <form action="https://formspree.io/cansat.gr@gmail.com"
-      method="POST" class="text-center">
+      method="POST" class="text-center" >
             <input type="text" name="Firstname" placeholder="Όνομα*">
             <input type="text" name="Lastname" placeholder="Επώνυμο*">
             <input type="text" name="_replyto" placeholder="e-mail*">
@@ -84,7 +81,7 @@
             <input type="text" name="Subject" placeholder="Θέμα">
             <textarea type="text" name="Message" placeholder="Μήνυμα" style="width: 60%;height: 150px;  margin: 8px 0;
     background-color: #596e89;"></textarea><br>
-    <input type="hidden" name="_next" value="nea.html" />
+    <!-- <input type="hidden" name="_next" value="nea.html" /> -->
             <input type="submit" value="Υποβολή" target="_blank" id="submit-form">
           </form>
 

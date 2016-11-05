@@ -206,6 +206,11 @@ div.slide p:nth-child(4){
     margin-bottom: 20px;
 }
 
+.slide p.info{
+    padding: 10px;
+    padding-bottom: 0;
+}
+
 @media (max-width: 500px){
     .bx-viewport{
         /*height: 450px !important;*/
@@ -372,6 +377,11 @@ div.clock span {
 
 .clock{
     display: inline-flex;
+}
+
+#timeline-photo{
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 /*timeline end*/
 

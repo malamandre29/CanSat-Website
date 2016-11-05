@@ -33,19 +33,7 @@
     <script src="js/acc-drop-w3-menu.js" ></script>
     <script src="js/open-close-nav.js"></script>
     <!-- closes menu when you are clicking outside of it -->
-    <script>
-    $(document).ready(function(){
-      document.querySelector("body")
-        .addEventListener("click", 
-          function (event) {
-            if(event.clientX > 250){
-              closeNav();
-            }
-            console.log(event.clientX);
-          }
-          );
-      });
-    </script>
+    <script src="js/close-menu-when-click.js"></script>
 
   </head>
 <body>
@@ -110,7 +98,7 @@
     <img src="images/photos/desk1.JPG" alt="photo">
     <p class="text-center">Workshop στον Άλιμο</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
     <div class="text-center">
       <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
@@ -119,7 +107,7 @@
     <img src="images/photos/board1.JPG" alt="photo">
     <p class="text-center">Workshop στον Άλιμο</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
     <div class="text-center">
       <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
@@ -128,7 +116,7 @@
     <img src="images/photos/desk2.JPG" alt="photo">
     <p class="text-center">Workshop στον Άλιμο</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
     <div class="text-center">
       <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
@@ -137,7 +125,7 @@
     <img src="images/photos/computers.JPG" alt="photo">
     <p class="text-center">Workshop στον Άλιμο</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
     <div class="text-center">
       <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
@@ -146,7 +134,7 @@
     <img src="images/photos/board5.JPG" alt="photo">
     <p class="text-center">Workshop στον Άλιμο</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
     <div class="text-center">
       <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
@@ -271,21 +259,7 @@
         <span>ΔΕΥ/ΤΑ</span>
        </div>
       </div>  
-
-     <p class="text-center">
-      Χρονοδιάγραμμα
-     </p>
-
-     <img class="center-block img-responsive" src="images/photos/hex_timeline.png" alt="timeline-photo">
-
-     <div> 
-      <img class="center-block img-responsive" src="images/photos/hex.png" alt="photo">
-    </div>
-    
-    <p class="text-center">
-      Επιλογή νικητή
-    </p>
-   
+     <img class="center-block img-responsive" id="timeline-photo" src="images/photos/hex_timeline.png" alt="timeline-photo">   
    </div>
   <!-- timeline end -->
   
