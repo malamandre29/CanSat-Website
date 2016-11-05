@@ -17,6 +17,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- http://cypressnorth.com/social-network-media-marketing/how-to-customize-preview-thumbnail-images-for-pages-on-your-website/ -->
+    <!-- Setting preview setting -->
+    <!-- Website name -->
+    <meta property="og:site_name" content="CanSat in Greece"/>
+    <!-- Website title -->
+    <meta property="og:title" content="CanSat in Greece"/>
+    <!-- Website description -->
+    <meta property="og:description" content="Ο μεγαλύτερος διαγωνισμός διαστημικής 
+    έρχεται στην Ελλάδα!"/>
+    <!-- Website image -->
+    <meta property="og:image" content="images/cansat_logo_trans.png">
+    <!-- some other meta tags -->
+    <meta name="description" content="CanSat in Greece 2017. Ο μεγαλύτερος διαγωνισμός διαστημικής 
+    έρχεται στην Ελλάδα!">
+    <meta name="keywords" content="CanSat,CanSat in Greece,CanSat in Greece 2017,Ο μεγαλύτερος διαγωνισμός διαστημικής 
+    έρχεται στην Ελλάδα!,διαγωνισμός διαστημικής">
+
+
+
     <title>CanSat in Greece</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-1.11.3.min.js"></script>
