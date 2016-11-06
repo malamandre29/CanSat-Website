@@ -209,6 +209,8 @@ div.slide p:nth-child(4){
 .slide p.info{
     padding: 10px;
     padding-bottom: 0;
+    height: 150px;
+    overflow: scroll;
 }
 
 @media (max-width: 500px){

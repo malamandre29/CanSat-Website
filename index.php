@@ -111,45 +111,46 @@
       </div>
     </div>
   <!-- jumbotron end -->
-
  <!-- start of multiple image slider -->
   <div class="container" id="news">
   <p class="text-center"><span class="glyphicon glyphicon-time"></span>ΠΡΟΣΦΑΤΑ ΝΕΑ</p>
   <div class="slider4"> 
   <div class="slide">
-    <img src="images/photos/desk1.JPG" alt="photo">
-    <p class="text-center">Workshop στον Άλιμο</p>
-    <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <img src="images/apply-now.png" alt="photo">
+    <p class="text-center">Έναρξη υποβολής αιτήσεων</p>
+    <p class="text-center date">25 Σεπτεμβρίου 2016</p>
+    <p class="text-center info">Σήμερα είναι η μέρα που περίμενες! Οι αιτήσεις συμμετοχής για τον πανελλήνιο
+    διαγωνισμό Cansat in Greece 2017 έχουν (ήδη) ανοίξει και σε περιμένουν!</p>
     <div class="text-center">
-      <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
+      <a href="news1.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
   </div>
   <div class="slide">
     <img src="images/photos/board1.JPG" alt="photo">
-    <p class="text-center">Workshop στον Άλιμο</p>
+    <p class="text-center">Δελτίο τύπου</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Τον Απρίλιο του 2017 διοργανώνεται, για πρώτη φορά στην Ελλάδα, με πρωτοβουλία του IEEE NTUA Student Branch ο πανελλήνιος διαγωνισμός διαστημικής CanSat in Greece. Ο διαγωνισμός αποτελεί την προκριματική φάση του πανευρωπαϊκού διαγωνισμού CanSats in Europe, που πραγματοποιείται για 7η συνεχόμενη χρονιά από την Ευρωπαϊκή Υπηρεσία Διαστήματος (ESA).
+    </p>
     <div class="text-center">
-      <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
+      <a href="news2.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
     </div>
   <div class="slide">
     <img src="images/photos/desk2.JPG" alt="photo">
-    <p class="text-center">Workshop στον Άλιμο</p>
+    <p class="text-center">Βραδιά του ερευνητή</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Στη μεγάλη γιορτή της επιστήμης, στη Βραδιά του Ερευνητή, που διοργανώθηκε την Παρασκευή 30 Σεπτεμβρίου στο ιστορικό κτίριο του Εθνικού Μετσόβιου Πολυτεχνείου, συμμετείχε το CanSat in Greece.</p>
     <div class="text-center">
-      <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
+      <a href="news3.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
     </div>
      <div class="slide">
     <img src="images/photos/computers.JPG" alt="photo">
-    <p class="text-center">Workshop στον Άλιμο</p>
+    <p class="text-center">Workshop στο Ε.Μ.Π.</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info"> Στα πλαίσια της διοργάνωσης του CanSat in Greece, πραγματοποιήθηκαν την Τετάρτη 2 Νοεμβρίου και την Πέμπτη 3 Νοεμβρίου δύο εισαγωγικά arduino workshop με συμμετέχοντες καθηγητές της περιφέρειας των Αθηνών στην Κεντρική Βιβλιοθήκη του Εθνικού Μετσόβιου Πολυτεχνείου.</p>
     <div class="text-center">
-      <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
+      <a href="news4.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
     </div>
     <div class="slide">
