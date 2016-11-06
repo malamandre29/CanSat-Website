@@ -53,6 +53,7 @@
     <script src="js/open-close-nav.js"></script>
     <!-- closes menu when you are clicking outside of it -->
     <script src="js/close-menu-when-click.js"></script>
+    <script src="js/google-analytics.js"></script>
 
   </head>
 <body>
