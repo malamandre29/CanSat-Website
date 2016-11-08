@@ -27,7 +27,10 @@
     <meta property="og:description" content="Ο μεγαλύτερος διαγωνισμός διαστημικής 
     έρχεται στην Ελλάδα!"/>
     <!-- Website image -->
-    <meta property="og:image" content="images/cansat_logo_trans.png"/>
+    <meta property="og:image" content="http://cansat.gr/images/logos/cansat.png"/>
+    <meta property="og:image:width" content="1100" />
+    <meta property="og:image:height" content="1500" />
+
     <!-- some other meta tags -->
     <meta name="description" content="CanSat in Greece 2017. Ο μεγαλύτερος διαγωνισμός διαστημικής 
     έρχεται στην Ελλάδα!"/>
@@ -153,13 +156,13 @@
       <a href="news4.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
     </div>
-    <div class="slide">
-    <img src="images/photos/board5.JPG" alt="photo">
-    <p class="text-center">Workshop στον Άλιμο</p>
+     <div class="slide">
+    <img src="images/mini-maker.png" alt="photo">
+    <p class="text-center">Athens Mini Maker Faire</p>
     <p class="text-center date">23 Σεπτεμβρίου 2016</p>
-    <p class="text-center info">Το Lorem Ipsum είναι απλά ένα κείμενο χωρίς νόημα για τους επαγγελματίες της τυπογραφίας και στοιχειοθεσίας.</p>
+    <p class="text-center info">Στις 1-2 Οκτωβρίου 2016 διεξήχθη για πρώτη φορά στην Ελλάδα το  Athens Mini Maker Faire στο Εκθεσειακό Κέντρο Περιστερίου και το IEEE Greece Section μαζί με την ομάδα του CanSat in Greece δεν μπορούσαν να λείψουν.</p>
     <div class="text-center">
-      <a href="pdf/guidelines.pdf" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
+      <a href="news5.html" target="_blank"><span class="necessary">Μάθετε περισσότερα</span></a>
     </div>
     </div>
   
