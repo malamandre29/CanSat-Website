@@ -27,9 +27,7 @@
     <meta property="og:description" content="Ο μεγαλύτερος διαγωνισμός διαστημικής 
     έρχεται στην Ελλάδα!"/>
     <!-- Website image -->
-    <meta property="og:image" content="http://cansat.gr/images/logos/cansat.png"/>
-    <meta property="og:image:width" content="1100" />
-    <meta property="og:image:height" content="1500" />
+    <meta property="og:image" content="http://cansat.gr/images/logos/square.jpg"/>
 
     <!-- some other meta tags -->
     <meta name="description" content="CanSat in Greece 2017. Ο μεγαλύτερος διαγωνισμός διαστημικής 
